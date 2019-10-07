@@ -10,7 +10,7 @@ quasar build -m cordova -T android
 
 > entre na pasta bin da jdk do java e gera uma genkey. ps: alias = nome do app/projeto
 
-**cd C:\Program Files\Java\jdk1.8.0_161\bin: **
+**cd C:\Program Files\Java\jdk1.8.0_161\bin:**
 
  keytool -genkey -v -alias <alias> -keyalg RSA -keysize 2048 -validity 20000 (Se não tiver certificado)
 
