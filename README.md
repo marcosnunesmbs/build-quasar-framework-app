@@ -15,7 +15,8 @@ quasar build -m cordova -T android
  keytool -genkey -v -alias <alias> -keyalg RSA -keysize 2048 -validity 20000 (Se não tiver certificado)
 
 > Assina o app-release-unsigned que se encontra na raiz do projeto com a .keystore gerada no passo anterios.
-> Obs: par ao mesmo projeto, não há necessidade de criar novos certificados.
+
+> Obs: para o mesmo projeto, não há necessidade de criar novos certificados.
 
 **cd C:\Program Files\Java\jdk1.8.0_161\bin :**
   
